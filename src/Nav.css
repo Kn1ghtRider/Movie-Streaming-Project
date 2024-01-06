@@ -1,0 +1,44 @@
+
+.nav {
+    position: fixed;
+    top: 0;
+    height: 30px;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    color: Red;
+    font-weight: 700; /* Make text bold */
+    font-size: 2.2em;   
+    font-Family: 'Sedgwick Ave Display', cursive;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.nav__black {
+    background-color: #111;
+}
+
+
+.nav__avatar {
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+    width: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.nav__contents {
+    position: fixed;
+    top: 10px;
+    cursor: pointer;
+    /* align-items: center;
+    background-color: #090b13;
+    height: 70px;
+    padding: 0 36px; */
+}
+
+.nav__logo {
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+*{
+  margin :0;
+}
+
+.App{
+  background-color: black;
+}
+.App__footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
